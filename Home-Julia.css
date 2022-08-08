@@ -1,0 +1,118 @@
+.web-1280-2 {
+    align-items: flex-start;
+    background-color: var(--white);
+    display: flex;
+    height: 800px;
+    min-width: 1280px;
+  }
+  .home-julia-signature {
+    height: 398px;
+    left: 42px;
+    position: absolute;
+    top: 260px;
+    width: 450px;
+  }
+    .home-holi-only {
+    height: 804px;
+    left: 706px;
+    position: absolute;
+    top: 0;
+    width: 509px;
+  }
+  .home-julia-face {
+    height: 492px;
+    left: 427px;
+    position: absolute;
+    top: 331px;
+    width: 489px;
+  }
+  .home-jp-button {
+    height: 204px;
+    left: 869px;
+    position: absolute;
+    top: 56px;
+    width: 205px;
+  }
+   .home-jp-button {
+    height: 204px;
+    left: 869px;
+    position: absolute;
+    top: 56px;
+    width: 205px;
+  }
+  
+  .icon-container {
+    height: 64px;
+    left: 225px;
+    position: absolute;
+    top: 650px;
+    width: 221px;
+  }
+  
+  .home-li-icon {
+    cursor: pointer;
+    height: 52px;
+    left: 107px;
+    position: absolute;
+    top: 7px;
+    width: 62px;
+  }
+  
+  .home-twitter-icon {
+    cursor: pointer;
+    height: 64px;
+    left: 164px;
+    position: absolute;
+    top: 0;
+    width: 57px;
+  }
+  
+  .home-fb-icon {
+    cursor: pointer;
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: 7px;
+    width: 60px;
+  }
+  
+  .home-insta-icon {
+    cursor: pointer;
+    height: 55px;
+    left: 54px;
+    position: absolute;
+    top: 7px;
+    width: 57px;
+  }
+  @font-face {
+    font-family: "HelveticaNeue-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fontsgeek.com/fonts/helveticaneue-regular");
+  }
+
+/*Container holding banner with page links */
+.home-banner-plain {
+    cursor: pointer;
+    height:  100px;
+    width:  800px;
+}
+.banner-prop {
+    position: relative;
+    left: -190px;
+    top: -550px;
+    width: fit-content;
+}
+.links {
+    color: white;
+    position: relative;
+    top: -70px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+}
+a:active {
+    color: d24cc0;
+}

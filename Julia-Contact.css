@@ -1,0 +1,168 @@
+.web-1280-2 {
+    align-items: flex-start;
+    background-color: var(--white);
+    display: flex;
+    height: 800px;
+    min-width: 1280px;
+  }
+    .home-holi-only {
+    height: 804px;
+    left: 706px;
+    position: absolute;
+    top: 0;
+    width: 509px;
+  }
+  .home-jp-button {
+    height: 204px;
+    left: 869px;
+    position: absolute;
+    top: 56px;
+    width: 205px;
+  }
+  
+  @font-face {
+    font-family: "HelveticaNeue-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fontsgeek.com/fonts/helveticaneue-regular");
+  }
+  .icon-container {
+    height: 64px;
+    left: 225px;
+    position: absolute;
+    top: 650px;
+    width: 221px;
+  }
+  .Cow-Photo {
+    height: 600px;
+    left: 630px;
+    position: absolute;
+    top: 200px;
+    width: 300px;
+  }
+  .Let-Us-Be-Friends {
+    height: 110px;
+    left: 150px;
+    position: absolute;
+    top: 225px;
+    width: 425px;
+  }
+
+.form-submission {
+left: 150px;
+top: 325px;
+position: absolute;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+color: #d24cc0
+}
+
+/* Container Holding bottom footer & text */
+
+.direct-text {
+    cursor: pointer;
+    height:  700px;
+    width:  800px;
+}
+.Contact-Info {
+    cursor: pointer;
+    height: 250px;
+    width: 450px;
+    position: absolute;
+    top: 505px;
+    left: 90px;
+   
+}
+.info-links {
+    color: white;
+    position: relative;
+    top: 662px;
+    display: flex;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    left: 120px;
+}
+
+/*Container holding banner with page links */
+.home-banner-plain {
+    cursor: pointer;
+    height:  100px;
+    width:  800px;
+}
+.banner-prop {
+    position: relative;
+    left: -190px;
+    top: -550px;
+    width: fit-content;
+}
+.links {
+    color: white;
+    position: relative;
+    top: -70px;
+    left: -55px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+}
+a:active {
+    color: d24cc0;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 35%;
+  position: relative;
+  margin: auto;
+  border: 2px solid black;
+  overflow: hidden;
+  top: 105px;
+  left: 530px;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/9 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}

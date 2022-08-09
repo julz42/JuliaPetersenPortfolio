@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    <link rel="stylesheet" href="Julia-About.css">
+    </head>
+    <body></body>
+
+<div class="About-Julia-Text">
+<p style="font-family:helvetica; color: #d24cc0; font-size: 15px;">
+    From Paris, Texas, but currently claiming Atlanta, GA as home <br>
+<br>
+    	Mother to Jairaj (Jai), 2 months old <br>
+    <br>
+    	Wife to Gaurav since 2019 <br>
+    <br>
+    	Shoe lover (err…hoarder???) with over 100 pairs -- and not ashamed! <br>
+    <br>
+    	Firmly believes there is always an occasion to dress up with sequins <br>
+    <br>
+    Avid baker <br>
+    <br>
+      Thrift store shopper <br>
+    <br>
+    Fiercely competitive <br>
+    <br>
+    	OrangeTheory addict <br>
+    <br>
+    Not so secretly obsessed with Harrison Ford <br>
+    <br>
+    Visited 43 states (7 left!) and 13 countries and counting! <br>
+    <br>
+      Horrible at keeping in touch, but will send you funny memes like a good friend should
+
+
+    </p> 
+</div>
+<div class="web-1280-2 screen">
+    <div class="overlap-group-container">
+      <div class="overlap-group">
+        <img
+          class="home-holi-only"
+          src="FinalWebImage/Home-Image/Home-Holi-Only.png"
+          alt="holi colors - yellow, blue, purple, pink, orange"
+        />
+        <a href="http://127.0.0.1:5500/index.html" target="_blank">
+          <img
+          class="home-jp-button"
+          src="FinalWebImage/Home-Image/Home-JP-Button.png"
+          alt="Home Button"
+          />
+        <div class="About-Banner-julia">
+        <img class="About-Banner-Julia"
+        src="FinalWebImage/About-Image/About-All-About-Type.png"
+        alt="All About Me Banner"
+        />
+          </div>
+
+
+        </div>
+        <div class="icon-container">
+        <div class="banner-prop">
+                <img 
+                class="home-banner-plain"
+                src="FinalWebImage/Home-Image/home-banner-plain.png"
+                alt="Top black banner">
+                <div class="links">
+                  <div class="about me"> <a href="http://127.0.0.1:5500/Julia-About.html" style="text-decoration: none; color: #d24cc0"; target="_blank">about me</a></div>
+                  <div class="experience"> <a href="http://127.0.0.1:5500/Julia-Experience.html" style="text-decoration: none; color:white" target="_blank">experience</a></div>
+                  <div class="contact"> <a href="http://127.0.0.1:5500/Julia-Contact.html" style="text-decoration: none; color:white" target="_blank">contact</a></div>
+        </div>
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <div class="numbertext"> </div>
+            <img src="/FinalWebImage/About-Image/Julia-Bride.jpeg" style="width:100%">
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext"> </div>
+            <img src="/FinalWebImage/About-Image/Julia-Gingerbread.jpg" style="width:100%">
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext"> </div>
+            <img src="/FinalWebImage/About-Image/Julia-Gaurav-Sangeet.jpg" style="width:100%">
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext"> </div>
+            <img src="/FinalWebImage/About-Image/Jairaj.jpeg" style="width:100%">
+          </div>
+          
+          <div class="mySlides fade">
+              <div class="numbertext"> </div>
+              <img src="/FinalWebImage/About-Image/Jairaj1.jpeg" style="width:100%">
+          </div>
+          
+          <div class="mySlides fade">
+              <div class="numbertext"> </div>
+              <img src="/FinalWebImage/About-Image/Julia-Gaurav-Wedding.jpeg" style="width:100%">
+          </div>
+          
+          <div class="mySlides fade">
+              <div class="numbertext"> </div>
+              <img src="/FinalWebImage/About-Image/Julia-Gaurav.jpeg" style="width:100%">
+          </div>
+          
+          <div class="mySlides fade">
+              <div class="numbertext"> </div>
+              <img src="/FinalWebImage/About-Image/Jairaj2.jpeg" style="width:100%">
+          </div>
+          
+          <div class="mySlides fade">
+              <div class="numbertext"> </div>
+              <img src="/FinalWebImage/About-Image/Julia-Alpaca.JPG" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext"> </div>
+            <img src="/FinalWebImage/About-Image/Jairaj3.Jpeg" style="width:100%">
+        </div>
+          
+          </div>
+          <br>
+          
+          <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span>
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+          
+          <script>
+          let slideIndex = 0;
+          showSlides();
+          
+          function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 2500); // Change image every 3 seconds
+          }
+          </script>
+        </div>
+        </div>
+      </div>
+      </div>
+</html>
